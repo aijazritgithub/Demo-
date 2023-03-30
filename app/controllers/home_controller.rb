@@ -21,3 +21,4 @@ class HomeController < ApplicationController
     params.permit(:name, :title)
   end
 end
+
