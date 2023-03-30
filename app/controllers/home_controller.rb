@@ -6,6 +6,7 @@ class HomeController < ApplicationController
 
   def new; end
 
+  
   def create
     @titles = Home.new(home_params)
     if @titles.save
